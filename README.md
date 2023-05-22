@@ -10,13 +10,12 @@ Install NVM see [https://nvm.sh]
 
 Do the following steps in order to work :
 1) Clone this repository
-2) Copy those files (except index.js) to the directory /usr/local/hestia/data/templates/web/nginx/
+2) Copy those files (except app.js) to the directory /usr/local/hestia/data/templates/web/nginx/
 3) Open your hestiacp control panel, edit the website configuration setting that you are going to use as nodejs hosting, and choose NodeJs3000 for Proxy Template field
-4) upload your nodejs files to the directory /home/admin/web/your-website-address/nodeapp 
-5) Run node index.js (or any of your index file) via command line prompt make sure the app is configured to run on port 3000
-6) Open your website address, you should see the output from your node js application otherwise check the log files
+4) upload app.js file to the directory /home/admin/web/your-website-address/nodeapp 
+5) Open your website address, you should see the output from your node js application otherwise check the log files
 
-# Example Testing script (index.js)
+# Example Testing script (app.js)
 <code>
 var http = require("http");
 http.createServer(function (request, response) {
