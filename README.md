@@ -3,6 +3,7 @@ Running nodejs application in Hestia Control Panel
 
 # Requirements
 Install PM2 npm i pm2@latest -g
+
 Install NVM see [https://nvm.sh]
 
 Do the following steps in order to work :
