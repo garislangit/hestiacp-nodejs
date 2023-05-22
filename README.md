@@ -10,6 +10,7 @@ Do the following steps in order to work :
 6) Open your website address you should see the output from your node js application
 
 # Example Testing script (index.js)
+<code>
 var http = require("http");
 http.createServer(function (request, response) {
    // Send the HTTP header 
@@ -20,3 +21,4 @@ http.createServer(function (request, response) {
    // Send the response body as "Hello World"
    response.end('Hello World\n');
 }).listen(3000);
+</code>
