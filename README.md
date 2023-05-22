@@ -6,6 +6,8 @@ Install PM2 npm i pm2@latest -g
 
 Install NVM see [https://nvm.sh]
 
+# Steps
+
 Do the following steps in order to work :
 1) Clone this repository
 2) Copy those files to the directory /usr/local/hestia/data/templates/web/nginx/
