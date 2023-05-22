@@ -15,7 +15,7 @@ Do the following steps in order to work :
 2) Copy those files (except app.js) to the directory /usr/local/hestia/data/templates/web/nginx/
 3) Open your hestiacp control panel, edit the website configuration setting that you are going to use as nodejs hosting, and choose NodeJs3000 for Proxy Template field
 4) upload app.js file to the directory /home/admin/web/your-website-address/nodeapp 
-5) Open your website address, you should see the output from your node js application otherwise check the log files
+5) Open your website address, you should see the output from your node js application otherwise check the log files . Make sure the nodemon is listening on port 3000 (check via command netstat -nlp | grep 3000 )
 
 # Example Testing script (app.js)
 <code>
