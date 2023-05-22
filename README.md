@@ -1,5 +1,7 @@
 # hestiacp-nodejs
-Running nodejs application in Hestia Control Panel or how to enable NodeJS support in hestia control panel
+Running nodejs application in Hestia Control Panel or how to enable NodeJS support in hestia control panel. 
+
+Note : i am unable to run via socket mode however port mode (3000) is worked
 
 # Requirements
 Install PM2 npm i pm2@latest -g
