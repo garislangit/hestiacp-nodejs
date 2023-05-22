@@ -6,7 +6,7 @@ Do the following steps in order to work :
 2) Copy those files to the directory /usr/local/hestia/data/templates/web/nginx/
 3) Open your hestiacp control panel, edit the website configuration setting that you are going to use as nodejs hosting, and choose NodeJs3000 for Proxy Template field
 4) upload your nodejs files to directory /home/admin/web/your-website-address/nodeapp 
-5) Run node index.js (or any other of your index file) 
+5) Run node index.js (or any other of your index file) via command line prompt
 6) Open your website address you should see the output from your node js application
 
 # Example Testing script (index.js)
