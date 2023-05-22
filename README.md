@@ -1,5 +1,5 @@
 # hestiacp-nodejs
-Running nodejs application in Hestia Control Panel 
+Running nodejs application in Hestia Control Panel or how to enable NodeJS support in hestia control panel
 
 # Requirements
 Install PM2 npm i pm2@latest -g
