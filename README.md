@@ -6,7 +6,7 @@ Install PM2 npm i pm2@latest -g
 
 Install NVM see [https://nvm.sh]
 
-# Steps
+# Installations
 
 Do the following steps in order to work :
 1) Clone this repository
